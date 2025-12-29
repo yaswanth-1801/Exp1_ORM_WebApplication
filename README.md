@@ -1,4 +1,4 @@
-# Ex01 Django ORM Web Application
+  # Ex01 Django ORM Web Application
 ## Date: 29/11/2025
 
 ## AIM
@@ -20,7 +20,7 @@ Execute Django admin and create details for 5 Car
 
 ## PROGRAM
 models.py
-
+```
 from django.db import models
 
 from django.contrib import admin
@@ -45,6 +45,7 @@ from django.contrib import admin
 from.models import Book, BookAdmin
 
 admin.site.register(Book, BookAdmin)
+```
 ## OUTPUT
 <img width="1600" height="809" alt="image" src="https://github.com/user-attachments/assets/9dd95c53-0148-4ecd-9901-9d3ccf8b0660" />
 
